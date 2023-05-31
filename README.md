@@ -13,7 +13,7 @@ To run this application download the source code from this repository, extract i
 In linux, 
   cd Download 
   -> select the extracted folder
-  -> goto bin folder 
+  -> goto dist folder 
   -> finally java -jar ImageStegeno.jar.
   
   
