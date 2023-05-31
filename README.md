@@ -11,6 +11,11 @@ Digi-Stegano implements following steganographic methods-
 
 To run this application download the source code from this repository, extract it.
 In linux, 
-  cd Download -> select the extracted folder -> goto bin folder -> finally java -jar ImageStegeno.jar.
+  cd Download 
+  -> select the extracted folder
+  -> goto bin folder 
+  -> finally java -jar ImageStegeno.jar.
+  
+  
   
   
