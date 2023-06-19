@@ -27,29 +27,6 @@ Image-Stegano implements following steganographic methods-
 3. Bitwise XOR Implementation between LSB and payload
 4. Steganography Based on File Format
 
-This tool also provides following additional options-
-
-1. Analysis of image using inversion and different colour maps
-2. Grayscale analysis of image
-3. Altering threshold of image (Histogram)
-4. Providing metadata about the image
-5. Chunks analysis of .png images
-6. Extraction of appended Data (.PNG and .BMP files)
-
-#### Working Demo of Bit Plane Steganography and Colour Map
-
-1. Choose an image to open: ![Opening Image](./screenshots/openingImage.png)
-2. Original Image: ![Selected Image](./screenshots/openedImage.png)
-3. 6th bit plane (RGB) ![All Plane 6th bit](./screenshots/allPlane6.png)
-4. Hidden image in 0th bit plane ![Hidden Image](./screenshots/bpcsHidden.png)
-5. Hidden Flag visible when color model is changed ![Hidden Flag](./screenshots/colourMap.png)
-
-#### GUI Screenshots
-
-1. Hide Image: ![Hide Image](./screenshots/hideImage.png)
-2. Altering Threshold: ![Altering Threshold](./screenshots/threshold.png)
-3. Extracting Metadata: ![Extracting Metadata](./screenshots/meta_data.png)
-4. Hidden Data in PNG chunk: ![PNG Check](./screenshots/png_check.png)
 
 #### How to start tool
 
@@ -57,15 +34,5 @@ This tool also provides following additional options-
 2. Open terminal (Ctrl + Alt + T)
 3. Type `cd /path/to/repository/ImageStegano/dist/` 
 4. Type `java -jar ImageStegano.jar`
-
-#### Dependencies
-* Image-Stegano tool uses https://github.com/drewnoakes/metadata-extractor library for metadata extraction
-
-### How to deploy the project
-
-This tool is being developed in NetBeans IDE. Import(or open) project in netbeans and add two jar files as libraries from libraries folder <https://github.com/varunon9/Image-Stegano/tree/master/libraries>.
-
-#### Working demo of Image-Stegano on youtube
-Visit: https://youtu.be/Ap-1l0lWnpo
 
 
